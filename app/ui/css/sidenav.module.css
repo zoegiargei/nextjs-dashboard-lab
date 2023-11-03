@@ -1,3 +1,7 @@
+.sidenav{
+    background-color: rgb(138, 43, 226);
+}
+
 .shape{
     width: 0;
     height: 0;
@@ -6,12 +10,13 @@
     border-bottom: 30px solid white;
 }
 
-.barColor{
-    background-color: blueviolet;
+.linksHover:hover{
+    color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.155);
 }
 
-.btn:hover{
-    cursor: pointer;
+.activeLink{
     color: blueviolet;
+    font-weight: 600;
     background-color: rgba(137, 43, 226, 0.155);
 }

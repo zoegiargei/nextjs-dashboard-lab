@@ -1,3 +1,7 @@
-const Page = () => {
+export default function Dashboard () {
+    return(
+        <>
+            <h1>Dashboard</h1>
+        </>
+    )
 }
-export default Page
